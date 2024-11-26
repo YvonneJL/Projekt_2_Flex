@@ -1,0 +1,325 @@
+@font-face {
+    font-family: Raleway_Regular;
+    src: url("../font/Raleway-Regular.ttf")
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: Raleway_Regular;
+}
+
+nav {
+    height: 7.6rem;
+    width: 151.2rem;
+}
+
+.ersteFlexbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.zweiteFlexbox {
+    display: flex;
+    align-items: center;
+    gap: 0 4rem;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #666;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #337ab7;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+main section:nth-of-type(1) {
+    background-image: url("../img/Wasser.png");
+    width: 151.2rem;
+    height: 100.9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.flexboxHintergrund {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.6rem 0;
+}
+
+h1 {
+    font-size: 6.4rem;
+    font-weight: lighter;
+    color: white;
+}
+
+section:nth-of-type(1) h2, section:nth-of-type(4) h2  {
+    font-size: 1.4rem;
+    color: white;
+}
+
+section:nth-of-type(1) article {
+    display: flex;
+    gap: 0 0.8rem;
+}
+
+.buttonEins, .buttonZwei {
+    width: 20rem;
+    height: 5.4rem;
+    background-color: #745CF9;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttonZwei {
+    background: none;
+    border: 0.2rem solid white;
+}
+
+.buttonEins:hover {
+    background-color: #5949b3;
+    color: white;
+}
+
+.buttonZwei:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ! Hier 2.section */
+
+section:nth-of-type(2), section:nth-of-type(3) {
+    height: 64.417rem;
+    width: 151.2rem;
+}
+
+section:nth-of-type(2), section:nth-of-type(3) {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+section:nth-of-type(2) article, section:nth-of-type(3) article {
+    width: 36rem;
+    height: 26.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section:nth-of-type(2) article {
+    width: 36rem;
+    height: 31rem;
+}
+
+ h2 {
+    font-size: 3rem;
+    color: #0E1015;
+}
+
+p {
+    font-size: 1.4rem;
+    width: 35.6rem;
+    line-height: 2.4rem;
+    color: #8C979E;
+}
+
+.buttonDrei, .buttonVier {
+    width: 20rem;
+    height: 5.4rem;
+    background-color: #745CF9;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonDrei:hover {
+    background-color: #5949b3;
+    color: white;
+}
+
+section:nth-of-type(4) {
+    background-image: url("../img/Welle.png");
+    width: 151.2rem;
+    height: 43.8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem 0;
+
+}
+
+section:nth-of-type(4) h2 {
+    width: 98.128rem;
+    line-height: 2.4rem;
+    text-align: center;
+    padding-bottom: 3.6rem;
+}
+
+section:nth-of-type(5) {
+    width: 151.2rem;
+    height: 114.267rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-of-type(5) h2 {
+    padding-top: 9.5rem;
+    padding-bottom: 2.7rem;
+}
+
+section:nth-of-type(5) p {
+    padding-bottom: 3.6rem;
+    width: 87.926rem;
+    text-align: center;
+}
+
+section:nth-of-type(5) a {
+    margin-bottom: 2.4rem;
+}
+
+section:nth-of-type(6) {
+    width: 155rem;
+    height: 138.15rem;
+    background-color: #0E1015;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-of-type(6) h2, section:nth-of-type(6) p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+section:nth-of-type(6) h2 {
+    margin-top: 9.5rem;
+    margin-bottom: 3.5rem;
+}
+
+section:nth-of-type(6) p {
+    margin-bottom: 4.4rem;
+}
+
+section:nth-of-type(6) article div {
+    margin-bottom: 11.663rem;
+}
+
+section:nth-of-type(6) article div img {
+    width: 38.55rem;
+    height: 26.888rem;
+}
+
+/* !Hier musst eich Größe der section anpassen, da die Bilder sonst nicht zu 4t in eine Reihe gepasst haben-->WARUM? Eigentlich hab ich doch die richtigen Größen schon exportiert... */
+
+section:nth-of-type(7) {
+    width: 151.2rem;
+    height: 46.7rem;
+    background-image: url("../img/Himmel.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-of-type(7) h2, section:nth-of-type(7) p {
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    width: 74.38rem;
+}
+
+section:nth-of-type(7) h2 {
+    margin-top: 7.4rem;
+    margin-bottom: 5.1rem;
+}
+
+section:nth-of-type(7) img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+section:nth-of-type(8) {
+    width: 151.2rem;
+    height: 34.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section:nth-of-type(8) ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 117rem;
+}
+
+section:nth-of-type(9) {
+    width: 151.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10rem 0;
+}
+
+footer {
+    background-color: #0E1015;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 151.2rem;
+}
+
+footer p {
+    color: #FFFFFF;
+    width: 50rem;
+    padding-left: 18.6rem;
+}
+
+footer a {
+    border: 2px solid gray;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
